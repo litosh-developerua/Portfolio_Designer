@@ -1,0 +1,21 @@
+.textSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.armor {
+  aspect-ratio: 1 / 2;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
