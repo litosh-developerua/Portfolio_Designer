@@ -143,11 +143,6 @@ export function VolkiharKnight() {
                   alt: 'A female character wearing the black coloured armor set.',
                 },
                 {
-                  srcSet: [volkiharSlide2, volkiharSlide2Large],
-                  sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
-                  alt: 'A close up of the custom gauntlets design.',
-                },
-                {
                   srcSet: [volkiharSlide3, volkiharSlide3Large],
                   sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
                   alt: 'A female character wielding a sword and wearing the red coloured armor.',
