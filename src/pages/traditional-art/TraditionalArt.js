@@ -17,8 +17,7 @@ import AcrilicPaintWood from 'assets/acrilic-painting-wood.jpg';
 import AcrilicPaintWoodLarge from 'assets/acrilic-painting-wood-large.jpg';
 import volkiharSlide1Large from 'assets/volkihar-slide-1-large.jpg';
 import volkiharSlide1 from 'assets/volkihar-slide-1.jpg';
-import volkiharSlide2Large from 'assets/volkihar-slide-2-large.jpg';
-import volkiharSlide2 from 'assets/volkihar-slide-2.jpg';
+
 import volkiharSlide3Large from 'assets/volkihar-slide-3-large.jpg';
 import volkiharSlide3 from 'assets/volkihar-slide-3.jpg';
 import volkiharSlidePlaceholder from 'assets/volkihar-slide-placeholder.jpg';
@@ -142,11 +141,7 @@ export function VolkiharKnight() {
                   sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
                   alt: 'A female character wearing the black coloured armor set.',
                 },
-                {
-                  srcSet: [volkiharSlide2, volkiharSlide2Large],
-                  sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
-                  alt: 'A close up of the custom gauntlets design.',
-                },
+                
                 {
                   srcSet: [volkiharSlide3, volkiharSlide3Large],
                   sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,

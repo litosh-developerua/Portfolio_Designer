@@ -28,7 +28,7 @@ const ProfileText = ({ visible, titleId }) => (
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to practice sport, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">practice traditional fine art</Link>. I’m always down to hear about new projects, so feel free to drop me a line.
+      <Link href="/traditional-art">practice traditional fine art</Link>. I’m always down to hear about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
 );
