@@ -12,14 +12,15 @@ import FabulaTexture from 'assets/fabula-website-dark.jpg';
 import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
-import raccoonCareMain from 'assets/raccoon_care_main_large.png'
-import raccoonCareMainLarge from 'assets/raccoon_care_main_large.png'
+import raccoonCareMain from 'assets/raccoon_care_main_large.png';
+import raccoonCareMainLarge from 'assets/raccoon_care_main_large.png';
+import { ProjectSummary } from 'layouts/Home/ProjectSummary';
+import { ProjectSummaryImages } from 'layouts/Home/ProjectSummaryImages';
 
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
 import { Profile } from 'layouts/Home/Profile';
-import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
@@ -37,7 +38,12 @@ export const Home = () => {
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, details];
+    const sections = [
+      intro,
+      projectOne,
+      // projectTwo, projectThree,
+      details,
+    ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -60,9 +66,9 @@ export const Home = () => {
       { rootMargin: '-100% 0px 0px 0px' }
     );
 
-    sections.forEach(section => {
-      sectionObserver.observe(section.current);
-    });
+    // sections.forEach(section => {
+    //   sectionObserver.observe(section.current);
+    // });
 
     indicatorObserver.observe(intro.current);
 
@@ -85,7 +91,10 @@ export const Home = () => {
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
-      <ProjectSummary
+      {/* <div className={styles.newProjects}>
+      <img src={ImageOne} alt="image"/>
+      </div> */}
+      {/* <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
@@ -144,11 +153,9 @@ export const Home = () => {
             },
           ],
         }}
-        />
-        
-      
-     
-      
+        /> */}
+      <ProjectSummaryImages id="project-1" sectionRef={projectOne} />
+
       <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}
