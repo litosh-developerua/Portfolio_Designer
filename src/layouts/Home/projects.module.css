@@ -30,7 +30,6 @@
   flex-direction: column;
   gap: 40px;
   padding-top: 35px;
-
 }
 
 .item3 {
@@ -44,11 +43,22 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-
 }
 
-.subItem1{
+.subItem1 {
   display: flex;
+  gap: 40px;
+}
+
+.subItem2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.subItem3 {
+  display: flex;
+  flex-direction: column;
   gap: 40px;
 }
 
@@ -56,7 +66,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-
 }
 
 .itemImg1 {
@@ -65,35 +74,34 @@
   background-image: url('../../assets/images/img1.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg1:hover {
-background: none;
+  background: none;
 }
 
 .text1 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 379px;
   height: 1901px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text1:hover {
   color: black;
-  background: #00E5FF;
- opacity: 1;
-
+  background: #00e5ff;
+  opacity: 1;
 }
-
 
 .itemImg2 {
   width: 379px;
@@ -101,7 +109,6 @@ background: none;
   background-image: url('../../assets/images/img2.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg2:hover {
@@ -111,26 +118,25 @@ background: none;
 .text2 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 379px;
   height: 382px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text2:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
-
 
 .itemImg3 {
   width: 303px;
@@ -138,7 +144,6 @@ background: none;
   background-image: url('../../assets/images/img3.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg3:hover {
@@ -148,26 +153,25 @@ background: none;
 .text3 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 303px;
   height: 542px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text3:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
-
 
 .itemImg4 {
   width: 303px;
@@ -175,7 +179,6 @@ background: none;
   background-image: url('../../assets/images/img4.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg4:hover {
@@ -185,25 +188,25 @@ background: none;
 .text4 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 303px;
   height: 541px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text4:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg5 {
   width: 303px;
@@ -211,7 +214,6 @@ background: none;
   background-image: url('../../assets/images/img5.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg5:hover {
@@ -221,26 +223,25 @@ background: none;
 .text5 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 303px;
   height: 540px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text5:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
-
 
 .itemImg6 {
   width: 303px;
@@ -248,7 +249,6 @@ background: none;
   background-image: url('../../assets/images/img6.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg6:hover {
@@ -258,26 +258,25 @@ background: none;
 .text6 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 303px;
   height: 543px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text6:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
-
 
 .itemImg7 {
   width: 303px;
@@ -285,7 +284,6 @@ background: none;
   background-image: url('../../assets/images/img7.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg7:hover {
@@ -295,26 +293,25 @@ background: none;
 .text7 {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   width: 303px;
   height: 305px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text7:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
-
 
 .itemImg8 {
   width: 303px;
@@ -322,7 +319,6 @@ background: none;
   background-image: url('../../assets/images/img8.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg8:hover {
@@ -334,23 +330,23 @@ background: none;
   height: 539px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text8:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg9 {
   width: 303px;
@@ -358,7 +354,6 @@ background: none;
   background-image: url('../../assets/images/img9.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg9:hover {
@@ -370,23 +365,23 @@ background: none;
   height: 303px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text9:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg10 {
   width: 304px;
@@ -394,7 +389,6 @@ background: none;
   background-image: url('../../assets/images/img10.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg10:hover {
@@ -406,23 +400,23 @@ background: none;
   height: 304px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text10:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg11 {
   width: 304px;
@@ -430,7 +424,6 @@ background: none;
   background-image: url('../../assets/images/img11.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg11:hover {
@@ -442,23 +435,23 @@ background: none;
   height: 544px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text11:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg12 {
   width: 648px;
@@ -466,7 +459,6 @@ background: none;
   background-image: url('../../assets/images/img12.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg12:hover {
@@ -478,25 +470,23 @@ background: none;
   height: 365px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text12:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
-
-
 
 .itemImg13 {
   width: 647px;
@@ -504,7 +494,6 @@ background: none;
   background-image: url('../../assets/images/img13.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg13:hover {
@@ -516,23 +505,23 @@ background: none;
   height: 364px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text13:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg14 {
   width: 380px;
@@ -540,7 +529,6 @@ background: none;
   background-image: url('../../assets/images/img14.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg14:hover {
@@ -552,23 +540,23 @@ background: none;
   height: 1452px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text14:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg15 {
   width: 304px;
@@ -576,7 +564,6 @@ background: none;
   background-image: url('../../assets/images/img15.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg15:hover {
@@ -588,23 +575,23 @@ background: none;
   height: 542px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text15:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
-
 }
-
 
 .itemImg16 {
   width: 304px;
@@ -612,7 +599,6 @@ background: none;
   background-image: url('../../assets/images/img16.png');
   cursor: pointer;
   transition: all 0.5s linear;
-
 }
 
 .itemImg16:hover {
@@ -624,19 +610,340 @@ background: none;
   height: 542px;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  color: black;
+  color: #3f3f3f;
   position: absolute;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
   transition: all 0.5s linear;
-
 }
 
 .text16:hover {
   color: black;
-  background: #00E5FF;
+  background: #00e5ff;
   opacity: 1;
+}
 
+.itemImg17 {
+  width: 380px;
+  height: 1953px;
+  background-image: url('../../assets/images/img17.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg17:hover {
+  background: none;
+}
+
+.text17 {
+  width: 380px;
+  height: 1953px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text17:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+.itemImg18 {
+  width: 304px;
+  height: 540px;
+  background-image: url('../../assets/images/img18.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg18:hover {
+  background: none;
+}
+
+.text18 {
+  width: 304px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text18:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+.itemImg19 {
+  width: 304px;
+  height: 540px;
+  background-image: url('../../assets/images/img19.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg19:hover {
+  background: none;
+}
+
+.text19 {
+  width: 304px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text19:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+.itemImg20 {
+  width: 304px;
+  height: 540px;
+  background-image: url('../../assets/images/img20.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg20:hover {
+  background: none;
+}
+
+.text20 {
+  width: 304px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text20:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+.itemImg21 {
+  width: 304px;
+  height: 540px;
+  background-image: url('../../assets/images/img21.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg21:hover {
+  background: none;
+}
+
+.text21 {
+  width: 304px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text21:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+.itemImg22 {
+  width: 648px;
+  height: 634px;
+  background-image: url('../../assets/images/img22.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg22:hover {
+  background: none;
+}
+
+.text22 {
+  width: 648px;
+  height: 634px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text22:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+.itemImg23 {
+  width: 648px;
+  height: 394px;
+  background-image: url('../../assets/images/img23.png');
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.itemImg23:hover {
+  background: none;
+}
+
+.text23 {
+  width: 648px;
+  height: 394px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #3f3f3f;
+  position: absolute;
+  background: #00e5ff;
+  opacity: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+  transition: all 0.5s linear;
+}
+
+.text23:hover {
+  color: black;
+  background: #00e5ff;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    margin-left: 150px;
+  }
+  .block1Main {
+    flex-direction: column;
+  }
+
+  .block2Main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    margin-left: 5px;
+  }
+  .itemImg1,
+  .itemImg2,
+  .itemImg3,
+  .itemImg4,
+  .itemImg5,
+  .itemImg6,
+  .itemImg7,
+  .itemImg8,
+  .itemImg9,
+  .itemImg10,
+  .itemImg11,
+  .itemImg12,
+  .itemImg13,
+  .itemImg14,
+  .itemImg15,
+  .itemImg16,
+  .itemImg17,
+  .itemImg18,
+  .itemImg19,
+  .itemImg20,
+  .itemImg21,
+  .itemImg22,
+  .itemImg23 {
+    max-width: 365px;
+    background-position: center;
+  }
+
+  .text1,
+  .text2,
+  .text3,
+  .text4,
+  .text5,
+  .text6,
+  .text7,
+  .text8,
+  .text9,
+  .text10,
+  .text11,
+  .text12,
+  .text13,
+  .text14,
+  .text15,
+  .text16,
+  .text17,
+  .text18,
+  .text19,
+  .text20,
+  .text21,
+  .text22,
+  .text23 {
+    max-width: 365px;
+  }
+  .subItem1 {
+    display: flex;
+    flex-direction: column;
+  }
 }

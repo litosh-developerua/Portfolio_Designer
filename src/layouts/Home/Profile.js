@@ -17,16 +17,16 @@ import styles from './Profile.module.css';
 
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
-    <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
+    <Heading className={styles.title} data-visible={true} level={3} id={titleId}>
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
+    <Text className={styles.description} data-visible={true} size="l" as="p">
       I’m Christina, currently I live in Ukraine working as a designer at{' '}
       <Link href="https://www.linkedin.com/company/playfabula/">Fabula</Link>. My projects include UX/UI design and illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you’re interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.
     </Text>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
+    <Text className={styles.description} data-visible={true} size="l" as="p">
       In my spare time I like to practice sport, play video games, and{' '}
       <Link href="/traditional-art">practice traditional fine art</Link>. I’m always down to hear about new projects, so feel free to drop me a line.
     </Text>
@@ -56,7 +56,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
               <Button
                 secondary
                 className={styles.button}
-                data-visible={visible}
+                data-visible={true}
                 href="/contact"
                 icon="send"
               >
@@ -71,7 +71,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   collapsed={!visible}
                   collapseDelay={1000}
                 />
-                <div className={styles.tagText} data-visible={visible}>
+                <div className={styles.tagText} data-visible={true}>
                   About Me
                 </div>
               </div>
@@ -90,7 +90,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   height="765"
                   viewBox="0 0 135 765"
                   className={styles.svg}
-                  data-visible={visible}
+                  data-visible={true}
                 >
                   <use href={`${profileKatakana}#katakana-profile`} />
                 </svg>
